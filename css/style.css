@@ -1,0 +1,16 @@
+/* --accent-color:#2196F3 */
+/* --second-color:#000000 */
+/* --headers-color:#212121 */
+/* --text-color:#757575 */
+
+:root {
+    --accent-color: #2196F3;
+    --second-color: #000000;
+    --headers-color: #212121;
+    --text-color: #757575;
+}
+
+/* Header */
+.logo {
+  
+}
