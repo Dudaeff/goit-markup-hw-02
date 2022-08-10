@@ -1,16 +1,108 @@
-/* --accent-color:#2196F3 */
-/* --second-color:#000000 */
-/* --headers-color:#212121 */
-/* --text-color:#757575 */
-
 :root {
     --accent-color: #2196F3;
     --second-color: #000000;
     --headers-color: #212121;
     --text-color: #757575;
+    --background-color: #2F303A;
+    --white-color: #FFFFFF;
 }
 
-/* Header */
+body {
+    font-family: Roboto, sans-serif;
+    background-color: var(--white-color);
+    color: var(--text-color);
+}
+
+/* header */
 .logo {
-  
+    color: var(--accent-color);
+}
+
+.first-logo {
+    color: var(--second-color);
+}
+
+.second-logo {
+    color: var(--white-color);
+}
+
+.nav-links a {
+    color: var(--headers-color);
+}
+
+.nav-links 
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+.contacts a {
+    color: var(--text-color);
+}
+
+.contacts 
+a:hover,
+a:focus {
+    color: var(--accent-color);
+}
+
+/* main-section-1 */
+.hero {
+    background-color: var(--background-color);
+}
+
+.hero-slogan {
+    color: var(--white-color);
+}
+
+.hero-btn {
+    background-color: var(--accent-color);
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: #188CE8;
+    color: var(--white-color);
+}
+
+/* main-secion-2 */
+.features h3 {
+    color: var(--headers-color);
+}
+
+/* main-section-3 */
+.what-we-do {
+    color: var(--headers-color);
+}
+
+/* our-team */
+.our-team {
+    color: var(--headers-color);
+}
+
+.our-team-list h3 {
+    color: var(--headers-color);
+}
+
+/* footer */
+.footer {
+    background-color: var(--background-color);
+}
+
+.contacts-adress {
+    color: var(--white-color);
+}
+
+.contacts-adress:hover,
+.contacts-adress:focus {
+  color: var(--accent-color);  
+}
+
+/* Розберись зі шрифтами */
+
+/* portfolio-page */
+.filter-btns {
+    
 }

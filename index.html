@@ -4,38 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Studio</title>
     <link rel="stylesheet" href="./css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
-    <title>Web Studio</title>
+    
 </head>
 
 <body>
     <header> <!--шапка сторінки-->
-       <a class="logo"  href="./index.html" >WebStudio</a> 
-        <nav>
+       <a class="logo"  href="./index.html" >Web<span class="first-logo">Studio</span></a> 
+        <nav class="nav-links">
            <ul>
              <li><a href="./index.html">Студія</a></li>
              <li><a href="./portfolio.html">Портфоліо</a></li>
              <li><a href="">Контакти</a></li>
            </ul>
         </nav>
-        
-       <ul>
-         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
-       </ul>
+        <ul class="contacts">
+            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
     </header>
 
     <main> <!--Основний контент-->
-        <section> <!--Секція 1-->
-            <h1>Ефективні рішення для вашого бізнесу</h1>
-            <button type="button">Замовити послугу</button>
+        <section class="hero"> <!--Секція 1-->
+            <h1 class="hero-slogan">Ефективні рішення для вашого бізнесу</h1>
+            <button type="button" class="hero-btn">Замовити послугу</button>
         </section>
 
         <section><!--Секція 2-->
             <h2>Наші переваги</h2>
-            <ul>
+            <ul class="features">
                 <li>
                    <h3>Увага до деталей</h3>
                    <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -59,7 +59,7 @@
         </section>
 
         <section><!--Секція 3-->
-            <h2>Чим ми займаємося</h2>
+            <h2 class="what-we-do">Чим ми займаємося</h2>
             <ul>
                 <li><img src="./images/box_1.jpg" alt="Процес написання коду на комп'ютері з додатковим екраном планшета" width="370"></li>
                 <li><img src="./images/box_2.jpg" alt="На екрані ноутбука три види інтерфейсу мобільного додатку" width="370"></li>
@@ -68,8 +68,8 @@
         </section>
 
         <section><!--Секція 4-->
-            <h2>Наша команда</h2>
-            <ul>
+            <h2 class="our-team">Наша команда</h2>
+            <ul class="our-team-list">
                 <li>
                     <img src="./images/igor_d.jpg" alt="портрет Ігора" width="270" height="260">
                     <h3>Ігор Дем'яненко</h3>
@@ -94,15 +94,17 @@
         </section>
     </main>
 
-    <footer><!--Підвал-->
-        <a href="./index.html">WebStudio</a>
+    <footer class="footer"><!--Підвал-->
+        <a class="logo" href="./index.html">Web<span class="second-logo">Studio</span></a>
 
         <address>
-            <ul>
+            <ul class="contacts">
+                <li>
+                    <a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow"><span class="contacts-adress">м. Київ, пр-т Лесі
+                    Українки, 26</span></a>
+                </li>
                 <li><a href="mailto:info@example.com">info@example.com</a></li>
                 <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
-                <li><a href="https://goo.gl/maps/CPtrU1FHBa2aNyZL9" target="_blank" rel="noopener noreferrer nofollow">м. Київ, пр-т Лесі
-                    Українки, 26</a></li>
             </ul>
         </address>
     
