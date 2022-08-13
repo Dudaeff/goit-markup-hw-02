@@ -94,7 +94,6 @@ body {
 /* ====contacts== */
 
 /* ====main-studio==== */
-
 /* ===section-hero=== */
 .hero {
     background-color: var(--background-color);
@@ -122,12 +121,12 @@ body {
     cursor: pointer;
     background-color: var(--accent-color);
     color: var(--primary-page-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .hero-btn:active {
     background: #188CE8;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
 }
  /* ===section-hero=== */
 
@@ -145,8 +144,7 @@ body {
     color: var(--headers-color);
 }
 
-.features-paragraphs {
-    font-weight: 400;
+.features-description {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -161,6 +159,7 @@ body {
 
  /* ===section-directions=== */
 
+ /* ===directions-and-team-headers== */
 .directions-header,
 .team-header {
     font-weight: 700;
@@ -170,6 +169,7 @@ body {
     letter-spacing: 0.03em;
     color: var(--headers-color);
 }
+ /* ===directions-and-team-headers== */
 
  /* ===section-team=== */
 .team {
@@ -188,10 +188,10 @@ body {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+    color: var(--headers-color);
 }
 
 .team-profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -199,6 +199,51 @@ body {
     color: var(--text-color);
 }
   /* ===section-team=== */
+  /* ====main-studio-end==== */
+
+ /*=======portfolio=page========*/
+
+ /* ===filter-buttons=== */
+ .filter-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
+    background-color: var(--team-section-color);
+    color: var(--headers-color);
+    cursor: pointer;
+ }
+
+ .filter-btn:active,
+ .filter-btn:focus {
+    background: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+                0px 1px 2px rgba(0, 0, 0, 0.08),
+                0px 2px 2px rgba(0, 0, 0, 0.12);
+     color: var(--primary-page-color);
+ }
+ /* ===filter-buttons=== */
+
+ /* ===portfolio-projects=== */
+ .project-headers {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--headers-color);
+ }
+
+ .project-description {
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+ }
+ /* ===portfolio-projects=== */
+/*=======portfolio=page-end========*/
 
   /* ===footer=== */
   .footer {
@@ -232,5 +277,4 @@ body {
   .footer-contacts:focus {
     color: var(--accent-color);
   }
-
-  /* ===footer=== */
+/* ===footer=== */
